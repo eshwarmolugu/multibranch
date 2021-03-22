@@ -64,7 +64,7 @@ pipeline {
 	  steps {
         echo 'UAT test'
         //sleep(60)
-        //snDevOpsChange()
+        //snDevOpsChange() 
 
       }
       
