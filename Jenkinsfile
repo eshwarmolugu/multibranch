@@ -53,7 +53,7 @@ pipeline {
       steps {
         echo 'TestChange'
         //sleep(60)
-        //snDevOpsChange()
+        snDevOpsChange()
 
       }
     }
