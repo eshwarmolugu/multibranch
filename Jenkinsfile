@@ -52,8 +52,10 @@ pipeline {
             }
       steps {
         echo 'TestChange'
+	      sh 'mvn test -Dpublish'
+            junit '**/target/surefire-reports/*.xml'
         //sleep(60)
-        snDevOpsChange()
+       // snDevOpsChange()
 
       }
     }
