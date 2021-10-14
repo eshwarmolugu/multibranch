@@ -25,9 +25,7 @@ pipeline {
       }
     }
     stage('Prod') {
-      when {
-                branch 'prod' 
-            }
+    
 	    environment {
     		 SCANNER_HOME = tool 'sonarScanner'
    		 //ORGANIZATION = "igorstojanovski-github"
